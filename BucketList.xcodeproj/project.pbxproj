@@ -8,20 +8,30 @@
 
 /* Begin PBXBuildFile section */
 		D2DF4C911C559D2200D3094B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2DF4C901C559D2200D3094B /* AppDelegate.swift */; };
-		D2DF4C931C559D2200D3094B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2DF4C921C559D2200D3094B /* ViewController.swift */; };
+		D2DF4C931C559D2200D3094B /* BucketListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2DF4C921C559D2200D3094B /* BucketListViewController.swift */; };
 		D2DF4C961C559D2200D3094B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D2DF4C941C559D2200D3094B /* Main.storyboard */; };
 		D2DF4C981C559D2200D3094B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D2DF4C971C559D2200D3094B /* Assets.xcassets */; };
 		D2DF4C9B1C559D2200D3094B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D2DF4C991C559D2200D3094B /* LaunchScreen.storyboard */; };
+		D2DF4CA31C55A09600D3094B /* MissionDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2DF4CA21C55A09600D3094B /* MissionDetailsViewController.swift */; };
+		D2DF4CA51C55A3F000D3094B /* CancelButtonDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2DF4CA41C55A3F000D3094B /* CancelButtonDelegate.swift */; };
+		D2DF4CA71C55A57200D3094B /* MissionDetailsViewControllerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2DF4CA61C55A57200D3094B /* MissionDetailsViewControllerDelegate.swift */; };
+		D2DF4CA91C55A86300D3094B /* Database.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2DF4CA81C55A86300D3094B /* Database.swift */; };
+		D2DF4CAB1C55A89800D3094B /* Missions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2DF4CAA1C55A89800D3094B /* Missions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		D2DF4C8D1C559D2200D3094B /* BucketList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BucketList.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D2DF4C901C559D2200D3094B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		D2DF4C921C559D2200D3094B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D2DF4C921C559D2200D3094B /* BucketListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BucketListViewController.swift; sourceTree = "<group>"; };
 		D2DF4C951C559D2200D3094B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D2DF4C971C559D2200D3094B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D2DF4C9A1C559D2200D3094B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D2DF4C9C1C559D2200D3094B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D2DF4CA21C55A09600D3094B /* MissionDetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MissionDetailsViewController.swift; sourceTree = "<group>"; };
+		D2DF4CA41C55A3F000D3094B /* CancelButtonDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CancelButtonDelegate.swift; sourceTree = "<group>"; };
+		D2DF4CA61C55A57200D3094B /* MissionDetailsViewControllerDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MissionDetailsViewControllerDelegate.swift; sourceTree = "<group>"; };
+		D2DF4CA81C55A86300D3094B /* Database.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Database.swift; sourceTree = "<group>"; };
+		D2DF4CAA1C55A89800D3094B /* Missions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Missions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,8 +65,13 @@
 			isa = PBXGroup;
 			children = (
 				D2DF4C901C559D2200D3094B /* AppDelegate.swift */,
-				D2DF4C921C559D2200D3094B /* ViewController.swift */,
+				D2DF4C921C559D2200D3094B /* BucketListViewController.swift */,
+				D2DF4CA61C55A57200D3094B /* MissionDetailsViewControllerDelegate.swift */,
 				D2DF4C941C559D2200D3094B /* Main.storyboard */,
+				D2DF4CA81C55A86300D3094B /* Database.swift */,
+				D2DF4CAA1C55A89800D3094B /* Missions.swift */,
+				D2DF4CA41C55A3F000D3094B /* CancelButtonDelegate.swift */,
+				D2DF4CA21C55A09600D3094B /* MissionDetailsViewController.swift */,
 				D2DF4C971C559D2200D3094B /* Assets.xcassets */,
 				D2DF4C991C559D2200D3094B /* LaunchScreen.storyboard */,
 				D2DF4C9C1C559D2200D3094B /* Info.plist */,
@@ -96,6 +111,7 @@
 				TargetAttributes = {
 					D2DF4C8C1C559D2200D3094B = {
 						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = NDH5RN9W27;
 					};
 				};
 			};
@@ -135,7 +151,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D2DF4C931C559D2200D3094B /* ViewController.swift in Sources */,
+				D2DF4CA91C55A86300D3094B /* Database.swift in Sources */,
+				D2DF4C931C559D2200D3094B /* BucketListViewController.swift in Sources */,
+				D2DF4CA71C55A57200D3094B /* MissionDetailsViewControllerDelegate.swift in Sources */,
+				D2DF4CAB1C55A89800D3094B /* Missions.swift in Sources */,
+				D2DF4CA31C55A09600D3094B /* MissionDetailsViewController.swift in Sources */,
+				D2DF4CA51C55A3F000D3094B /* CancelButtonDelegate.swift in Sources */,
 				D2DF4C911C559D2200D3094B /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -249,10 +270,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = BucketList/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = IOS.BucketList;
+				PRODUCT_BUNDLE_IDENTIFIER = IOSStack.BucketList;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -260,10 +284,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = BucketList/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = IOS.BucketList;
+				PRODUCT_BUNDLE_IDENTIFIER = IOSStack.BucketList;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
